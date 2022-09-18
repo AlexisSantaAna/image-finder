@@ -17,8 +17,10 @@ export const styles = StyleSheet.create({
     paddingLeft: 8    
   },
   title: {
-    fontSize: 20,
+    fontSize: 24,
     color: colors.text,
     marginVertical: 20,
+    fontFamily: "Poppins-Bold",
+    color: colors.text
   },
 });
