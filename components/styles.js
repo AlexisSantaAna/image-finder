@@ -3,24 +3,32 @@ import { colors } from "../constants/colors";
 
 export const styles = StyleSheet.create({
   container: {
-    paddingTop: 30,
+    paddingTop: 55,
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    maxHeight: 100,
+    maxHeight: 120,
     backgroundColor: colors.primary,
   },
   input: {
-    paddingVertical: 2,
+    paddingVertical: 4,
     width: "60%",
     borderRadius: 10,
-    paddingLeft: 8    
+    paddingLeft: 10    
   },
   title: {
-    fontSize: 24,
+    fontSize: 28,
     color: colors.text,
-    marginVertical: 20,
+    marginVertical: 8,
     fontFamily: "Poppins-Bold",
     color: colors.text
   },
+  inputText: {
+    fontSize: 16
+  },
+  containerLoader: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  }
 });
